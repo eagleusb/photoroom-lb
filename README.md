@@ -1,5 +1,9 @@
 # Photoroom Inference Load Balancing
 
+# Overview
+
+![overview](./assets/overview.png)
+
 ## Testing
 
 ```sh
