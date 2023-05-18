@@ -1,3 +1,4 @@
+# DISCLAIMER: not doing snake_case onPurpose :)
 from flask import Flask, request
 from models import specs
 
