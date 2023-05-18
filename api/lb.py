@@ -29,5 +29,23 @@ def inference():
 def isWarmedUp(currLatency):
     if currLatency != 0: return True; return False
 
+# TODO: define if the model current latency is under the 30sec requirement
+def isUnderThirtySec(currLatency):
+   pass
+
+# TODO: get the actual number of inference machines running
+#  it's easier to fetch the information from the instances group api
+def inferenceMachinesRunning():
+   pass
+
+# TODO: determine if more machine are needed for that model
+def inferenceMachinesNeeded(modelName):
+   pass
+
+# TODO: regularly check the availability of machines running x model
+#  compared to the x model totalLatency (=<30s)
+def inferenceMachinesTicker(modelName):
+   pass
+
 if __name__ == "__main__":
     app.run()
